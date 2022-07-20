@@ -1,32 +1,26 @@
-/*Body and Headers*/
-body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: white;
-    padding: 0.5;
-    margin: 1;
-    margin-top: 1.5in;
-    height: 100vw;
-}
-
-
 header{
     background-color: white;
-    padding: .75rem 0;
-    border: solid 1px black;
-    border-radius: 5px;
+    padding: .75rem;
+    border: solid 1.5px rgb(56, 137, 187);
     box box-shadow: 
         0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    height: in;
 }
 
-ul {
-    color: white
-} 
+body{
+    font-family: 'EB Garamond';
+    font-size: large;
+    background-color: white;
+    padding: 0.5;
+    margin: 1;  
+    margin-top: 1.5in;
+    height: 100vw;
+}
 
 nav ul{
     list-style: none;
@@ -34,30 +28,21 @@ nav ul{
     padding: .5em;
 }
 
-
 section div.panel {
     display: inline-block;
     
 }
 
-
 .panel{
     float: top;
     position: static;
-    width: 300px;
-    position: center;
+    width: 200px;
     margin: 0 0.5em 2.0em 0.5em;
     padding: 1.0em;
     background-color: transparent;    
     border: rgb(56, 137, 187) solid 3px;
     border-radius: 0.6em;
 }
-
-section div.panel img.amGan {
-    width: 100%;
-    
-}
-
 
 .container1 {
     height: .75in;
@@ -67,21 +52,17 @@ section div.panel img.amGan {
         rgb(56, 137, 187) 50%,
         rgb(187, 56, 132) 100%
     );
-    width: 
-font-family:sans-serif
-font-size: 14pt;
-color:gainsboro;
+    font-size: 14pt;
+    color:white;
 }
 
 .container2 .form {
     text-align: justify;
     width: 2in;
-    height:3in;
+    height:3.75in;
     margin: auto;
-    margin-top: auto;
-    padding: 2.5rem;
-    background-color: lightgray;
-    border: solid 1px gray;
+    padding: 3rem;
+    border: solid 1px rgb(56, 137, 187);
     border-radius: 5px;
     box box-shadow: 
         0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -89,23 +70,45 @@ color:gainsboro;
     
 }
 
+.container3 {
+    text-align: center;
+    height: 5.5in;
+    width: 2.75in;
+    padding: 0 0 3rem 0;
+    display: inline-block;
+    background: linear-gradient(
+    210deg,
+        rgb(187, 56, 117) 25%,
+        rgb(56, 137, 187) 50%,
+        rgb(187, 56, 132) 100%
+    );
+    color:white;
+
+}
+
+.wrapper .sidebar{
+    background: rgb(56, 137, 187);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
 
 
 button {
     list-style: none;
-    box-align: right;
     background-color: rgb(187, 56, 117);
     border-radius: 30px;
     border: none;
     padding: 10px 20px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 10pt;
     margin: 4px 2px;
     cursor: pointer;
 }
-
 
 button:hover {
     box-shadow: 
@@ -114,27 +117,25 @@ button:hover {
 }
 
 
-/*Footer*/
 
 footer {
-    background-color: rgb(56, 137, 187);
-    color: black;
     text-align: center;
+    margin-bottom: -25px;
 }
 
 footer ul li {
     list-style: none;
+    text-decoration: none;
     display: inline-block;
-    text-align: center;
     padding: 0px;
 }
 
 footer a:visited {
-    color: purple;
+    color:rgb(56, 137, 187);
     text-decoration: none;
 }
 
 footer a:hover {
-    color:rgb(56, 137, 187);
-    text-decoration: underline;
+    color: rgb(187, 56, 117);
+    text-decoration: none;
 }
